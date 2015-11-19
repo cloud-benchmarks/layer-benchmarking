@@ -5,6 +5,12 @@ permalink: /
 nav: false
 ---
 
+# Introduction
+
+Here's a short video outlinging what Benchmarking looks like with Juju
+
+OMG VIDEO
+
 # Deploy a workload
 
 We'll deploy an example workload to run benchmarks against. For an exhaustive
