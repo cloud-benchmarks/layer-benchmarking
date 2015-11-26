@@ -9,9 +9,9 @@ nav: false
 
 Here's a short video outlinging what Benchmarking looks like with Juju
 
-OMG VIDEO
+OMG VIDEO  
 
-# Deploy a workload
+## Deploy a workload
 
 We'll deploy an example workload to run benchmarks against. For an exhaustive
 list of all benchmarks available please see the [All Benchmarks]() section.
@@ -22,7 +22,7 @@ juju deploy mariadb
 juju add-relation mariadb mediawiki:db
 ```
 
-# Add a load generator
+## Add a load generator
 
 Since this is a typical three tier web infrastructure, we'll add [siege]() to
 create load over HTTP
@@ -32,7 +32,7 @@ juju deploy siege
 juju add-relation mediawiki siege
 ```
 
-# Run a benchmark
+## Run a benchmark
 
 Either visit the benchmark-gui address or issue the following command
 
@@ -41,7 +41,7 @@ juju action do siege/0 siege concurrent=30
 Action queued with: c3dfec96-8efe-11e5-932d-17d2f80bf113
 ```
 
-## Get results!
+### Get results!
 
 ```
 juju action fetch c3dfec96-8efe-11e5-932d-17d2f80bf113
@@ -113,7 +113,7 @@ timing:
 
 Repeat, rerun, record!
 
-# Benchmark infrastructure
+## Benchmark infrastructure
 
 Finally, we add some additional supporting infrastructure to allow metrics and
 benchmark data to be collected as well as providing an easy to use GUI

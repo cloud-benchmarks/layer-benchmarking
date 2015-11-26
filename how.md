@@ -1,11 +1,13 @@
 ---
 layout: default
-title: How & why
+title: How and why
 permalink: /how/
 nav: true
 ---
 
-# Benchmarking on clouds is hard
+# How and why
+
+## Benchmarking on clouds is hard
 
 In order to get value from benchmarks you should follow a scientific
 pattern where define testing parameters, collect data over time, and adjust
@@ -23,7 +25,7 @@ configuration of that service and what the service connects to and how
 those components are deployed. All of these factors making benchmarking
 scale-out workloads increasing more difficult.
 
-# Why Juju
+## Why Juju
 
 Juju is a service modelling and execution platform that allows you to easily
 model a deployment, execute that deployment against bare metal and private
@@ -40,6 +42,4 @@ general constraints that are portable between clouds, and using the charm
 as a constant, it becomes easy and quick to spin up entire workloads,
 benchmark them, record results, and repeat.
 
-# How it works
-
-
+## How it works

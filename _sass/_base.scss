@@ -1,2 +1,13 @@
+// Import settings
+@import 'global-settings';
+
+// Import vanilla
 @import 'vanilla-framework/scss/vanilla';
+// Include the framework
 @include vanilla;
+
+// Site modules
+@import 'modules/header',
+        'modules/core';
+@include benchmarking-header;
+@include benchmarking-core;
