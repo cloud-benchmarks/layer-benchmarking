@@ -1,0 +1,16 @@
+/// Default core styling
+@mixin benchmarking-core {
+  code,
+  pre {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: .75em;
+    background-color: #eee;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
